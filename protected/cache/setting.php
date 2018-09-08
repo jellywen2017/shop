@@ -1,6 +1,6 @@
 <?php 
 return array (
-  'site_name' => 'Verydows 开源电商系统',
+  'site_name' => '环宇美发',
   'home_title' => 'Verydows 开源电子商务系统 | 轻松开启电商之旅',
   'home_keywords' => '',
   'home_description' => '',
@@ -17,8 +17,8 @@ return array (
   'smtp_password' => '',
   'smtp_port' => '25',
   'smtp_secure' => '',
-  'admin_mult_ip_login' => '0',
-  'upload_goods_filesize' => 307200,
+  'admin_mult_ip_login' => '1',
+  'upload_goods_filesize' => 307200.0,
   'visitor_stats' => '1',
   'goods_hot_searches' => '',
   'cate_goods_per_num' => '20',
@@ -75,8 +75,8 @@ return array (
   'order_delivery_expires' => '7',
   'user_register_email_verify' => '0',
   'user_review_approve' => '0',
-  'rewrite_enable' => '0',
-  'data_cache_lifetime' => '7200',
+  'rewrite_enable' => '1',
+  'data_cache_lifetime' => '0',
   'goods_fulltext_query' => '0',
   'debug' => '1',
   'rewrite_rule' => 
@@ -92,6 +92,6 @@ return array (
     'index.html' => 'main/index',
     '<c>/<a>.html' => '<c>/<a>',
   ),
-  'encrypt_key' => '0badd5a32cffdc78aa13f0aa05dd521a',
+  'encrypt_key' => '9e290273e0f7eeb6747911efb164b0b7',
   'http_host' => 'http://shop.jellywen.cn:88',
 );
